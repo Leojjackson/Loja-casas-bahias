@@ -11,20 +11,18 @@ body{
     align-items: center;
 }
 
-.container-header{
-    margin: 5px;
-    height: 300px;
-    width: 1200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header{
+    position:absolute;
+    left:0;
+    height: 100px;
+    width: 300px;
     background-image: url(.//img/imagem-casas-bahia.png);
     object-fit: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
     background-clip: border-box;
-    background-size: 1200px;
-    box-shadow: 15px 15px 25px;
+    background-size: 60%;
+    /* box-shadow: 15px 15px 25px; */
 }
 
 .container-main{
@@ -38,7 +36,7 @@ body{
 
 .container-lista{
     width: 900px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */  /* Preferi por tirar esse border, por achar melhor sem ele */
     border-radius: 2px;
     padding: 10px;
     display: flex;
